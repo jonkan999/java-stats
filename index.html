@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer="" src="getStats.js"></script>
+
+    <link href="general.css" rel="stylesheet" />
+
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>
+      Har dom fåått sitt java? Visar statistik för kaffeleveranser, all day
+      every day
+    </title>
+    <meta
+      name="description"
+      content="Visar statistik för kaffeleveranser, all day every day"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img class="coffeImage" src="coffee.svg" alt="Coffee Image" />
+      </div>
+      <h1 class="main-header">Har de fått sitt java?</h1>
+
+      <div class="grid-3-cols">
+        <div class="delivered">
+          <span class="left-col">Levererade hittills idag:</span>
+          <span class="kpi-string" id="coffeString"></span>
+          <div class="pulsing-circle"></div>
+        </div>
+        <div class="expected">
+          <span class="left-col">av förväntade:</span>
+          <span class="kpi-string">3 932</span>
+        </div>
+        <div class="cancellations">
+          <span class="left-col">Avbokningar hittills idag:</span>
+          <span class="kpi-string">325</span>
+        </div>
+        <div class="delivered">
+          <span class="left-col">Levererade igår:</span>
+          <span class="kpi-string"> 150 000</span>
+        </div>
+        <div class="expected"></div>
+        <div class="cancellations">
+          <span class="left-col">Avbokningar igår:</span>
+          <span class="kpi-string">521</span>
+        </div>
+        <div class="delivered">
+          <span class="left-col">Levererade samma dag föregående vecka:</span>
+          <span class="kpi-string"> 123 000</span>
+        </div>
+        <div class="expected"></div>
+        <div class="cancellations">
+          <span class="left-col">Avbokningar samma dag föregående vecka:</span>
+          <span class="kpi-string">400</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
