@@ -108,6 +108,7 @@ select:focus {
   display: inline-block;
   width: 15rem;
   text-align: end;
+  font-size: 1.3rem;
 }
 .kpi-string {
   display: inline-block;
@@ -145,4 +146,12 @@ select:focus {
     transform: scale(1);
     opacity: 1;
   }
+}
+
+#mainmessage {
+  transition: opacity 1s;
+}
+
+#mainmessage.fade-out {
+  opacity: 0;
 }

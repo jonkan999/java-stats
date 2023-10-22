@@ -26,6 +26,7 @@
     ></script>
 
     <script defer="" src="getStats.js"></script>
+    <script defer="" src="cycleMessage.js"></script>
 
     <link href="general.css" rel="stylesheet" />
 
@@ -49,37 +50,19 @@
       </div>
       <h1 class="main-header">Har de fått sitt java?</h1>
 
-      <div class="grid-3-cols">
+      <div class="grid-3-cols" id="mainmessage">
         <div class="delivered">
-          <span class="left-col">Levererade hittills idag:</span>
-          <span class="kpi-string" id="coffeString"></span>
+          <span class="left-col">Omdömen hittills idag:</span>
+          <span class="kpi-string">521</span>
           <div class="pulsing-circle"></div>
         </div>
         <div class="expected">
-          <span class="left-col">av förväntade:</span>
-          <span class="kpi-string">3 932</span>
+          <span class="left-col">snittbetyg:</span>
+          <span class="kpi-string">4,2 / 5</span>
         </div>
         <div class="cancellations">
-          <span class="left-col">Avbokningar hittills idag:</span>
-          <span class="kpi-string">325</span>
-        </div>
-        <div class="delivered">
-          <span class="left-col">Levererade igår:</span>
-          <span class="kpi-string"> 150 000</span>
-        </div>
-        <div class="expected"></div>
-        <div class="cancellations">
-          <span class="left-col">Avbokningar igår:</span>
-          <span class="kpi-string">521</span>
-        </div>
-        <div class="delivered">
-          <span class="left-col">Levererade samma dag föregående vecka:</span>
-          <span class="kpi-string"> 123 000</span>
-        </div>
-        <div class="expected"></div>
-        <div class="cancellations">
-          <span class="left-col">Avbokningar samma dag föregående vecka:</span>
-          <span class="kpi-string">400</span>
+          <span class="left-col">10% bättre än snittet senaste 30 dagarna</span>
+          <span class="kpi-string">NICE! &#128512;</span>
         </div>
       </div>
     </div>
